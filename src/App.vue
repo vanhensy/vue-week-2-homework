@@ -1,20 +1,16 @@
 <template>
   <div id="app">
-    <p>this is Vue app</p>
+    <weather/>
   </div>
 </template>
 
 <script>
+import weather from "@/components/weather"
+
 export default {
   name: 'app',
+  components: {
+    "weather": weather
+  }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-</style>
