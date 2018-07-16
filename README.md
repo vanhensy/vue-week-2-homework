@@ -1,7 +1,7 @@
 ## Vue - Week 2 - Home work
 
 ### Tasks
-- [ ] Responsive for any screen (desktop, laptop, tablet, phone)
+- [x] Responsive for any screen (desktop, laptop, tablet, phone)
 - [x] Uses only Grid for main layout
 - [x] Uses flexbox for positioning inside grid-items
 - [x] All colors are used through CSS Variables

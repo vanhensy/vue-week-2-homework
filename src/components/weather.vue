@@ -7,7 +7,9 @@
     <div class="grid-item graphic">
       <img src="../assets/main-graphic.svg" alt="main-graphic">
     </div>
-    <div class="grid-item temperature">{{ temperature }}</div>
+    <div class="grid-item temperature">
+      <h3>{{ temperature }}<sup>&deg;C</sup></h3>
+    </div>
     <div class="grid-item prediction">{{ description }}</div>
   </div>
 </template>
